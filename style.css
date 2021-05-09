@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    font-family: 'Freckle Face', cursive;
+font-family: 'Lobster', cursive;
+background-color :#15314b;
+color :whitesmoke;
+}
+.input-container{
+    height: 15vh;
+    font-family: 'Freckle Face', cursive;
+font-family: 'Lobster', cursive;
+
+}
+.text-container{
+    height: 85vh;
+    font-size: 1.25rem;
+    text-align: center;
+}
+.task{
+    background-color:rgb(30, 136, 136);
+    list-style: none;
+    display : block;
+    width: 60vw;
+    height: 1.5em;
+    color:rgb(1, 8, 14);
+    margin :0 auto;
+    margin-bottom:0.5rem;
+    padding: 10px;
+}
+.input_box{
+    font-family: 'Freckle Face', cursive;
+font-family: 'Lobster', cursive;
+height:60%;
+font-size:2rem;
+display: block;
+margin :0 auto;
+margin-top:3vh;
+width:40vw;
+}
+@media screen and (max-width:884px) {
+ .input_box{
+     width:60vw;
+ }   
+}
